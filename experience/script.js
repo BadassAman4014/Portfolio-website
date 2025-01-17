@@ -20,8 +20,8 @@ $(document).ready(function(){
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
-    distance: '80px',
-    duration: 1000,
+    distance: '200px',
+    duration: 2000,
     reset: true
 });
 
@@ -65,7 +65,6 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {
