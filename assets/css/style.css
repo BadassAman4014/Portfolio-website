@@ -406,6 +406,16 @@ header .navbar ul li a:hover {
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
+
+.resume-container {
+  display: flex;
+  justify-content: left; /* Center the buttons horizontally */
+  align-items: left; /* Align buttons vertically */
+  gap: 2rem; /* Space between buttons */
+  margin-top: 6rem; /* Match existing .resumebtn margin */
+}
+
+
 .resumebtn {
   margin-top: 6rem;
 }
